@@ -44,13 +44,12 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
 	 *
 	 * @return string
 	 */
+
 	public function getReminderEmail()
 	{
 		return $this->email;
 	}
 
-	//Adding Models. Tables associations
-	//Accesses and Files
 	public function accesses()
 	{
 		return $this->hasMany('Access');
@@ -60,5 +59,5 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
 	{
 		return $this->belongsToMany('Filz\File');
 	}
-
+	
 }

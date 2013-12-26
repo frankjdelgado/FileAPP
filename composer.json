@@ -5,7 +5,7 @@
 	"license": "MIT",
 	"require": {
 		"laravel/framework": "4.0.*",
-        "imagine/imagine": "dev-master"
+		"imagine/imagine": "dev-master"
 	},
 	"autoload": {
 		"classmap": [

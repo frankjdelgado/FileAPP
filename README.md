@@ -1,4 +1,4 @@
 FileAPP
 =======
 
-A dropbox look alike app made with php/laravel as the final project for the laravel framework course
+A dropbox look alike and very basic app made with php/laravel
